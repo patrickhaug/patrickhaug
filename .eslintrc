@@ -1,0 +1,14 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {},
+  "globals": {
+    "React": "writable"
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
